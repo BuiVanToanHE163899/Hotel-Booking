@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "rWwqwaVVbTR4AIGUbJ2cXKNxumvX4n4dclUl3KveMQI=",
+  "Source": "HotelBooking.API",
+  "BasePath": "_content/HotelBooking.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HotelBooking.API\\wwwroot",
+      "Source": "HotelBooking.API",
+      "ContentRoot": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.API\\wwwroot\\",
+      "BasePath": "_content/HotelBooking.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

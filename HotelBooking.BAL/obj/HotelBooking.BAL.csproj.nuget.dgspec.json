@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL\\HotelBooking.BAL.csproj": {}
+  },
+  "projects": {
+    "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL.Interface\\HotelBooking.BAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL.Interface\\HotelBooking.BAL.Interface.csproj",
+        "projectName": "HotelBooking.BAL.Interface",
+        "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL.Interface\\HotelBooking.BAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\BuiToan\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BuiToan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj"
+              },
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL\\HotelBooking.BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL\\HotelBooking.BAL.csproj",
+        "projectName": "HotelBooking.BAL",
+        "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL\\HotelBooking.BAL.csproj",
+        "packagesPath": "C:\\Users\\BuiToan\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BuiToan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL.Interface\\HotelBooking.BAL.Interface.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.BAL.Interface\\HotelBooking.BAL.Interface.csproj"
+              },
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj"
+              },
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL\\HotelBooking.DAL.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL\\HotelBooking.DAL.csproj"
+              },
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj",
+        "projectName": "HotelBooking.DAL.Interface",
+        "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\BuiToan\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BuiToan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL\\HotelBooking.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL\\HotelBooking.DAL.csproj",
+        "projectName": "HotelBooking.DAL",
+        "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL\\HotelBooking.DAL.csproj",
+        "packagesPath": "C:\\Users\\BuiToan\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BuiToan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj": {
+                "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.DAL.Interface\\HotelBooking.DAL.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj",
+        "projectName": "HotelBooking.Domain",
+        "projectPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\HotelBooking.Domain.csproj",
+        "packagesPath": "C:\\Users\\BuiToan\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\PRN231\\sourceonClass\\HotelBooking-development\\HotelBooking.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BuiToan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
